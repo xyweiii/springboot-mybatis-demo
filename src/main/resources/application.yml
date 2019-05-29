@@ -1,0 +1,13 @@
+server:
+  port: 9080
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/imooc-demo?characterEncoding=utf8&useSSL=true
+    username: root
+    password: pass
+    driver-class-name: com.mysql.jdbc.Driver
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+
